@@ -37,18 +37,18 @@ button:hover, button:focus {
     }
 }
 
-.nav {
+.logo {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    :hover {
-        color: 404bbf;
+    :hover, :focus {
+        color: #404BBF;
     }
 }
 
-.address {
+.contact {
     font-style: normal;
         font-size: 16px;
         line-height: 1.5;
@@ -61,6 +61,7 @@ button:hover, button:focus {
 
 .span {
     color: #F4F4FD;
+}
 
 .main {
     background-color: #2e2f42;
@@ -146,4 +147,8 @@ button:hover, button:focus {
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+}
+
+.span-head {
+    color: #2e2f42;
 }
