@@ -24,7 +24,7 @@ button:hover, button:focus {
     background-color: #404BBF;   
 }
 
-.logo {
+.logo-head {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -37,26 +37,16 @@ button:hover, button:focus {
     }
 }
 
-.logo {
-    font-weight: 500;
+.contact {
+    font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
-    :hover, :focus {
-        color: #404BBF;
-    }
+    color: #434455;
 }
 
-.contact {
-    font-style: normal;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
-        :hover, :focus {
-            color: #404bbf;
-        }
+.contact:hover, .contact:focus {
+    color: #404BBF;
 }
 
 .span {
@@ -151,4 +141,19 @@ button:hover, button:focus {
 
 .span-head {
     color: #2e2f42;
+}
+
+.nav {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #404BBF;
+    :hover, :focus {
+            color: #404BBF;
+    }
+}
+
+.adress {
+    font-style: normal;
 }
