@@ -154,7 +154,11 @@ button:hover, button:focus {
     }
 }
 
-adress {
+.nav:hover, .nav:focus {
+    color: #404BBF;
+}
+
+address {
     font-style: normal;
 }
 
@@ -162,7 +166,7 @@ adress {
     background-color: #FFFFFF;
 }
 
-.logo-foot {
+.logo-footer {
     font-family: 'Raleway', sans-serif;
     font-style: 700;
     font-size: 18px;
@@ -170,4 +174,8 @@ adress {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+}
+
+.team-card {
+    background-color: #FFFFFF;
 }
