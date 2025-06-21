@@ -148,12 +148,26 @@ button:hover, button:focus {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #404BBF;
+    color: #2e2f42;
     :hover, :focus {
             color: #404BBF;
     }
 }
 
-.adress {
+adress {
     font-style: normal;
+}
+
+.sect-list {
+    background-color: #FFFFFF;
+}
+
+.logo-foot {
+    font-family: 'Raleway', sans-serif;
+    font-style: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
 }
