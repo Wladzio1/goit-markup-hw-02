@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
-    font-size: 56px;
+    font-size: 16px;
     background-color: #FFFFFF;
     line-height: 1.1;
 }
@@ -15,9 +15,10 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     letter-spacing: 0.04em;
-    :hover, :focus {
-            background-color: #404BBF;  
-    }
+}
+
+.button:hover, .button:focus {
+    background-color: #404BBF;
 }
 
 button:hover, button:focus {
@@ -178,4 +179,12 @@ address {
 
 .team-card {
     background-color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
 }
